@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  test:
+    build:
+      context: .
+      dockerfile: ./service-1/Dockerfile
+    command: "echo hello"
